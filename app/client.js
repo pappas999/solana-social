@@ -1,9 +1,9 @@
 // Parse arguments
 // --program - [Required] The account address for your deployed program.
-// --action - [Required] Create or Update a tweet
+// --action - [Required] Create or Update a post
 // --title - [Required] The title of the post
 // --content - [Required] The content of the post
-// --tweet - [Required] The account address of the post you wish to update
+// --post - [Required] The account address of the post you wish to update
 
 const args = require('minimist')(process.argv.slice(2));
 
